@@ -58,6 +58,10 @@ section:nth-child(even) {
     background-color: rgb(241, 241, 241);
 }
 
+/* .main-genre{
+    display: flex;
+} */
+
 section {
     min-height: 100vh;
 
@@ -126,12 +130,13 @@ footer {
     background: rgb(37, 163, 58);
 }
 
-.case .genre {
+ .genre {
     position: relative;
     width: 200px;
     height: 200px;
     overflow: hidden;
     transition: 0.4s;
+    display: flex;
 
 }
 
@@ -142,9 +147,10 @@ footer {
 }
 
 .case {
-    position: relative;
-    width: 1100px;
+    /* position: relative;
+    width: 1100px; */
     display: flex;
+    flex-wrap: wrap;
 }
 
 .carousel {
@@ -163,4 +169,8 @@ footer {
 .quote p {
     font-style: oblique;
     font-size: 20px;
+}
+
+.car-sec{
+    display: flow-root;
 }
